@@ -25,6 +25,7 @@ yarn-error.log*
 
 # dependencies
 /node_modules
+/server/node_modules
 /.pnp
 .pnp.js
 
@@ -40,7 +41,11 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env
 
 npm-debug.log*
+
+*.sqlite
+
 yarn-debug.log*
 yarn-error.log*
